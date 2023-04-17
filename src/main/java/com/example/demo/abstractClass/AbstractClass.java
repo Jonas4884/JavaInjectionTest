@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Primary;
 public abstract class AbstractClass {
 
     @Autowired
-    public ConcreteDependance1 concreteDependance1 ;
+    protected ConcreteDependance1 concreteDependance1 ;
     @Autowired
-    public ConcreteDependance2 concreteDependance2 ;
+    protected ConcreteDependance2 concreteDependance2 ;
 }

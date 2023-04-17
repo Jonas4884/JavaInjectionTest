@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class ConcreteDependance2 extends AbstractClass {
-    public void speak2(){
-        System.out.println("concrete depedance 1");
+    public String speak2(){
+        return ("concrete depedance 2");
     }
 }
